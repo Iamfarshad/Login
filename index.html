@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body>
+    
+    <!--navigation bar-->
+    
+    <header class="flex justify-between items-center w-full h-12 bg-blue-200 ">
+              <!--Items-->
+        <div class="flex justif-center items-center font-bold gap-11 ">
+            <a class="ml-4 transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 duration-300 " href="#">Sections</a>
+            <a class="transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 duration-300" href="#">Info</a>
+            <a class="transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 duration-300" href="#">About</a>
+            <a class="transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 duration-300" href="#">Portfolio</a>
+            <a class="transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 duration-300" href="#">Description</a>
+        </div>
+              <!--sign-up-->
+        <div class=" flex justif-center items-center ">
+            <button class=" flex justif-center items-center mr-4 rounded-l-full rounded-r-full p-3 h-8  transition ease-in-out delay-150 bg-blue-400 hover:-translate-y-1 hover:scale-110 hover:bg-indigo-400 duration-300 ">
+                <b>Sign Up</b>
+              </button>
+        </div>
+
+    </header>
+            
+    <!--keeping exact section-->
+
+    <section class="flex justify-center items-center">
+
+     <!--designing the position in middle-->
+
+        <div class=" flex justify-center items-center content-center h-[100vh] w-full">
+
+           <!--designing Card-->
+
+            <div class="flex justify-center items-center h-fit w-fit border  border-gray-200 bg-gray-50 rounded-lg">
+
+                       <!--designing items plases-->
+
+                    <div class="flex flex-col justify-center items-center gap-4 p-7">
+
+                        <!--Designing input tags-->
+
+                        <span class=" mb-2 font-bold" >LOG IN</span>
+                        <input class="h-10 w-[370px] rounded-l-full rounded-r-full" type="text" placeholder="Enter Username" required="required"> 
+
+                        <input class="h-10 w-[370px] rounded-l-full rounded-r-full" type="password" placeholder="Enter password" required="required">
+                         
+                        <!--designing another section-->
+
+                        <div class="flex justify-around items-center gap-12 p-1">
+                            <div class="flex gap-2">
+                             <input class="cursor-pointer" type="checkbox" name="Remember password" id="">
+                             <span>Keep Me logged In</span>
+                             </div>
+                             <a href="#">Forget your password?</a>
+                        </div>
+
+                        <!--creating Account-->
+
+                        <div class="flex flex-col justify-around items-center gap-24 p-1">
+                            <div class="flex gap-2 justify-start">
+                             <a  href="#">Create An Account</a>
+                             </div>
+                        </div>
+
+                        <!--designing Sign up-->
+
+                        <button class="text-center px-4 py-2 text-black w-[380px] h-10 rounded-l-full rounded-r-full transition ease-in-out delay-150 bg-blue-300 hover:-translate-y-1 hover:scale-110 hover:bg-indigo-300 font-bold required">
+                            Log In 
+                          </button>
+                          
+
+                          
+
+                      </div>
+
+                </div>
+        </div>
+    </section>
+    <!--designing Footer-->
+    <footer class="flex justify-between items-center w-full h-14 bg-blue-100">
+
+        <div class="ml-4">
+            <span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt, voluptatibus.</span>
+        </div>
+
+        <div class="flex flex-col justify-center items-center mr-4">
+           <span>Lorem ipsum dolor sit</span>
+           <a href="#">Loremipsum243.gmail.com</a>
+        </div>
+
+    </footer>
+
+    
+</body>
+</html>
